@@ -80,7 +80,7 @@ if (this.state.buttonClicked === "students") {
     }
 
     /* Uncomment lines below to render grades*/
-    /*if (this.state.buttonClicked === "grades") {
+  if (this.state.buttonClicked === "grades") {
       tabChoice = (
         <Table
           tableNames={this.state.assignments}
@@ -89,7 +89,7 @@ if (this.state.buttonClicked === "students") {
           data={this.state.grades}
         />
       );
-    }*/
+    }
 
     return (
       <div>
